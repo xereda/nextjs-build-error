@@ -1,0 +1,34 @@
+@import url('./colors.css');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ant-page-header-heading-title {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+.ant-page-header-back-button:focus, .ant-page-header-back-button:hover {
+  color: var(--black) !important;
+}
+
+.ant-tooltip-inner {
+  color: var(--black) !important;
+  font-size: 12px !important;
+}
+
+.ant-btn-link {
+  color: var(--blue) !important;
+}

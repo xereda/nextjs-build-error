@@ -1,0 +1,53 @@
+{
+  "name": "test-ant",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --",
+    "test:watch": "jest --watch",
+    "test:watchAll": "jest --watchAll",
+    "prepare": "husky install",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.17.3",
+    "axios": "^0.25.0",
+    "formik": "^2.2.9",
+    "gerador-validador-cpf": "^5.0.2",
+    "lodash": "^4.17.21",
+    "next": "^12.0.11-canary.10",
+    "prop-types": "^15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-icons": "^4.3.1",
+    "react-minimal-pie-chart": "^8.2.0",
+    "swr": "^1.2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.7.0",
+    "eslint-config-next": "^12.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.4",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7",
+    "msw": "^0.36.8",
+    "sass": "^1.45.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
